@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
             // สูตร BMI = น้ำหนัก / ส่วนสูง²
             double bmi = weight / (heightM * heightM);
+            categoryResult.setVisibility(TextView.VISIBLE);
 
             // แสดง BMI ทศนิยม 2 ตำแหน่ง
             DecimalFormat decimalFormat = new DecimalFormat("#,##0.00");
