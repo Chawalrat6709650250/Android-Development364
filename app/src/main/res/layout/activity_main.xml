@@ -28,7 +28,7 @@
             android:gravity="center"
             android:layout_marginBottom="24dp"
             android:text="@string/title"
-            android:textColor="#212529"
+            android:textColor="@color/text_title"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -43,21 +43,21 @@
             app:boxCornerRadiusBottomStart="16dp"
             app:boxCornerRadiusTopEnd="16dp"
             app:boxCornerRadiusTopStart="16dp"
-            app:boxStrokeColor="#2563EB"
+            app:boxStrokeColor="@color/primary_blue"
             app:boxStrokeWidth="2dp"
             app:boxStrokeWidthFocused="2.5dp"
-            app:hintTextColor="#2563EB"
+            app:hintTextColor="@color/primary_blue"
             app:placeholderText="@string/placeholder_weight"
-            app:placeholderTextColor="#94A3B8"
+            app:placeholderTextColor="@color/text_placeholder"
             app:suffixText="@string/unit_weight"
-            app:suffixTextColor="#71717A">
+            app:suffixTextColor="@color/text_suffix">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/weight_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
-                android:textColor="#1E293B"
+                android:textColor="@color/text_input"
                 android:textSize="20sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -73,32 +73,33 @@
             app:boxCornerRadiusBottomStart="16dp"
             app:boxCornerRadiusTopEnd="16dp"
             app:boxCornerRadiusTopStart="16dp"
-            app:boxStrokeColor="#2563EB"
+            app:boxStrokeColor="@color/primary_blue"
             app:boxStrokeWidth="2dp"
-            app:hintTextColor="#1E3A8A"
+            app:hintTextColor="@color/hint_dark_blue"
             app:placeholderText="@string/placeholder_height"
-            app:placeholderTextColor="#94A3B8"
+            app:placeholderTextColor="@color/text_placeholder"
             app:suffixText="@string/unit_height"
-            app:suffixTextColor="#71717A">
+            app:suffixTextColor="@color/text_suffix">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/height_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal"
-                android:textColor="#1E293B"
+                android:textColor="@color/text_input"
                 android:textSize="20sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_calculate"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
             android:text="@string/btn_calculate"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"
-            app:backgroundTint="#4D7DF9"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/btn_blue"
             app:cornerRadius="28dp"
             android:layout_marginBottom="36dp" />
 
@@ -109,7 +110,7 @@
             android:text="@string/result_title"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:textColor="#1A1A1A"
+            android:textColor="@color/text_result"
             android:layout_marginBottom="12dp" />
 
         <TextView
@@ -119,7 +120,7 @@
             android:text="@string/default_result"
             android:textSize="38sp"
             android:textStyle="bold"
-            android:textColor="#1A1A1A"
+            android:textColor="@color/text_result"
             android:layout_marginBottom="18dp" />
 
         <TextView
@@ -133,10 +134,8 @@
             android:text="@string/default_result"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/white"
             android:visibility="gone" />
 
     </LinearLayout>
 </ScrollView>
-
-
