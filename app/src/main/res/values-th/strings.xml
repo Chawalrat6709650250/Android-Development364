@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BodyMassIndex</string>
+    <string name="title">ค่าดัชนีมวลกาย</string>
+
+    <string name="label_weight">น้ำหนัก</string>
+    <string name="unit_weight">กิโลกรัม</string>
+    <string name="placeholder_weight">เช่น 60</string>
+
+    <string name="label_height">ส่วนสูง</string>
+    <string name="unit_height">เซนติเมตร</string>
+    <string name="placeholder_height">เช่น 170</string>
+
+    <string name="btn_calculate">คำนวณ BMI</string>
+
+    <string name="result_title">ค่าดัชนีมวลกายของคุณ</string>
+    <string name="default_result">-</string>
+
+    <string name="category_underweight">น้ำหนักน้อย / ผอม</string>
+    <string name="category_normal">สมส่วน / ปกติ</string>
+    <string name="category_overweight">น้ำหนักเกิน / ท้วม</string>
+    <string name="category_obese">อ้วน / ภาวะเสี่ยงสูง</string>
+
+    <string name="error_empty_input">กรุณากรอกข้อมูลให้ครบถ้วน</string>
+    <string name="error_invalid_input">กรุณากรอกตัวเลขที่ถูกต้อง</string>
+</resources>
