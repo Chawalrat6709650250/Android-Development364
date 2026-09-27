@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Badge BMI ใช้ตัวหนังสือสีขาว
             categoryResult.setTextColor(
-                    getColor(android.R.color.white)
+                    getColor(R.color.white)
             );
 
             // แสดง BMI ทศนิยม 2 ตำแหน่ง
