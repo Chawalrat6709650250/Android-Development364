@@ -6,11 +6,11 @@
 
     <string name="label_weight">Weight</string>
     <string name="unit_weight">kg</string>
-    <string name="placeholder_weight">e.g. 60</string>
+    <string name="placeholder_weight">e.g. 60 (maximum of 2 decimal places)</string>
 
     <string name="label_height">Height</string>
     <string name="unit_height">cm</string>
-    <string name="placeholder_height">e.g. 170</string>
+    <string name="placeholder_height">e.g. 170 (maximum of 2 decimal places)</string>
 
     <string name="btn_calculate">Calculate BMI</string>
 

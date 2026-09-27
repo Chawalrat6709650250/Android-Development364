@@ -5,11 +5,11 @@
 
     <string name="label_weight">น้ำหนัก</string>
     <string name="unit_weight">กิโลกรัม</string>
-    <string name="placeholder_weight">เช่น 60</string>
+    <string name="placeholder_weight">เช่น 60 (ใส่ทศนิยมได้สูงสุด 2 ตำแหน่ง)</string>
 
     <string name="label_height">ส่วนสูง</string>
     <string name="unit_height">เซนติเมตร</string>
-    <string name="placeholder_height">เช่น 170</string>
+    <string name="placeholder_height">เช่น 170 (ใส่ทศนิยมได้สูงสุด 2 ตำแหน่ง)</string>
 
     <string name="btn_calculate">คำนวณ BMI</string>
 
