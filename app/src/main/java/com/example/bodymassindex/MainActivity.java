@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Error ใช้ตัวหนังสือสีดำเพื่อให้อ่านง่าย
             categoryResult.setTextColor(
-                    getColor(android.R.color.black)
+                    getColor(R.color.text_error)
             );
 
             categoryResult.setBackgroundResource(0);
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Error ใช้ตัวหนังสือสีดำเพื่อให้อ่านง่าย
                 categoryResult.setTextColor(
-                        getColor(android.R.color.black)
+                        getColor(R.color.text_error)
                 );
 
                 categoryResult.setBackgroundResource(0);
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Badge BMI ใช้ตัวหนังสือสีขาว
             categoryResult.setTextColor(
-                    getColor(android.R.color.white)
+                    getColor(R.color.white)
             );
 
             // แสดง BMI ทศนิยม 2 ตำแหน่ง
@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Error ใช้ตัวหนังสือสีดำเพื่อให้อ่านง่าย
             categoryResult.setTextColor(
-                    getColor(android.R.color.black)
+                    getColor(R.color.text_error)
             );
 
             categoryResult.setBackgroundResource(0);
